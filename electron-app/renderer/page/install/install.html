@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Install Student Management System</title>
+    <link rel="stylesheet" href="install.css">
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div style="padding: 0px 8px 0px 0px">
+        <div class="container" style="padding: 10px;margin-top: 5px;">
+            <div class="row register" style="padding: 5px;">
+                <div class="col-md-4 col-sm-12 register-left">
+                    <div style="margin-top: 10px;"></div>
+                    <b style="font-size: 13px;">Open Source</b><br/>
+                    <b style="font-size: 25px;">Student Management System</b><br/>
+                    By <b style="font-size: 16px;"><a href="https://github.com/amirhamza05" style="color: #ffffff">Amir Hamza</a></b>
+                    <div style="margin-top: 35px;text-align: left;">
+                        <ul style="font-size: 15px;">
+                            <li>Add Student Information</li>
+                            <li>Admit Student In Multiple Program</li>
+                            <li>Student Payment System</li>
+                            <li>Student Attendence System</li>
+                            <li>Generate Student Id Card</li>
+                            <li>Program Add</li>
+                            <li>Exam Add</li>
+                            <li>Add Exam Result and generate Auto Ranking</li>
+                            <li>Sending Result by SMS</li>
+                            <li>Sending Notice By SMS</li>
+                            <li>Institute Report (Payment,Expence,Income,Profit,Attendence)</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/amirhamza05/Student-Management-System">
+                        <input type="submit" value="Github"/>
+                    </a><br/>
+                </div>
+                <div class="col-md-8 col-sm-12 register-right">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="install_body">
+                            <div style="margin-top: 100px;"></div>
+                            <center>
+                                <button class="btnnext" id="beginInstall">Install</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="vendor/jquery.min.js"></script>
+    <script src="../../layout/js/site_script.js"></script>
+    <script src="install_system.js"></script>
+    <script>
+        document.getElementById("beginInstall").addEventListener("click", function() {
+            view_install_page();
+        });
+    </script>
+</body>
+</html>
